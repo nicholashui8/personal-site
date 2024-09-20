@@ -3,6 +3,7 @@ import { Home } from "./Home";
 import { Bara } from "./Bara";
 import { Capybara } from "./Capybara";
 import { Dog } from "./Dog";
+import { Projects } from "./Projects";
 
 function App() {
   return (
@@ -12,6 +13,7 @@ function App() {
         <Route path="/bara" element={<Bara />}/>
         <Route path="/capybara" element={<Capybara />}/>
         <Route path="/dog" element={<Dog />}/>
+        <Route path="/projects" element={<Projects />}/>
         <Route path="*" element={<Navigate to='/' replace />}/>
       </Routes>
     </BrowserRouter>
